@@ -1,27 +1,27 @@
 # subs
 
-TODO: Write a description here
+Simple subdomain discovery tool that uses the Shodan API to grab domain information.
 
 ## Installation
 
-TODO: Write installation instructions here
+Clone the repository and run:
+
+```bash
+crystal build --release src/subs.cr
+```
 
 ## Usage
 
-TODO: Write usage instructions here
+```bash
+subs <API KEY> <domain>
+```
 
-## Development
+For example:
 
-TODO: Write development instructions here
+```bash
+subs APIKEY cnn.com
+```
 
-## Contributing
+You can grab your API key from the Shodan account page:
 
-1. Fork it (<https://github.com/your-github-user/subs/fork>)
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create a new Pull Request
-
-## Contributors
-
-- [your-name-here](https://github.com/your-github-user) - creator and maintainer
+https://account.shodan.io
