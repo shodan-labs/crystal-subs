@@ -1,0 +1,6 @@
+version: 2.0
+shards:
+  shodan:
+    git: https://github.com/percussiveelbow/shodan.git
+    version: 0.1.3+git.commit.6fcd5aac08e4b3f6eadffc6af5b629f35530f374
+
